@@ -1,0 +1,9 @@
+label,definition,examples
+quality_issue,质量或故障投诉,漏水/损坏/无法开机
+delivery_issue,配送或包装问题,物流太慢/包装破损
+refund_return,退款退货诉求,申请退款/退货/换货
+usage_question,使用或售后咨询,怎么安装/如何清洗
+feature_request,功能或产品改进建议,希望增加自动清洁
+purchase_intent,明确购买或升级意向,想买商用大容量款
+positive_feedback,明确正面评价,做工不错/很满意
+other,以上类别均不符合,其他内容

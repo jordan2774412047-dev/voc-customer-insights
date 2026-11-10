@@ -1,0 +1,46 @@
+{
+  "accuracy": 0.9512505974191493,
+  "macro_f1": 0.951248517476869,
+  "classification_report": {
+    "0": {
+      "precision": 0.946981794953689,
+      "recall": 0.9549114331723028,
+      "f1-score": 0.9509300833867864,
+      "support": 3105.0
+    },
+    "1": {
+      "precision": 0.9554990464081373,
+      "recall": 0.9476670870113493,
+      "f1-score": 0.9515669515669516,
+      "support": 3172.0
+    },
+    "accuracy": 0.9512505974191493,
+    "macro avg": {
+      "precision": 0.9512404206809131,
+      "recall": 0.951289260091826,
+      "f1-score": 0.951248517476869,
+      "support": 6277.0
+    },
+    "weighted avg": {
+      "precision": 0.951285876778368,
+      "recall": 0.9512505974191493,
+      "f1-score": 0.9512519164069368,
+      "support": 6277.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      2965,
+      140
+    ],
+    [
+      166,
+      3006
+    ]
+  ],
+  "model_name": "hfl/chinese-macbert-base",
+  "epochs": 3,
+  "max_length": 128,
+  "test_rows": 6277,
+  "warning": "公开数据二分类情绪结果不代表 VOC 多类别业务效果。"
+}

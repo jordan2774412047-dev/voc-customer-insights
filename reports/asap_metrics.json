@@ -1,0 +1,40 @@
+{
+  "dataset": "Meituan-Dianping ASAP",
+  "train_rows": 36850,
+  "dev_rows": 4940,
+  "test_rows": 4940,
+  "epochs": 3,
+  "max_length": 384,
+  "batch_size": 4,
+  "aspects": [
+    "Location#Transportation",
+    "Location#Downtown",
+    "Location#Easy_to_find",
+    "Service#Queue",
+    "Service#Hospitality",
+    "Service#Parking",
+    "Service#Timely",
+    "Price#Level",
+    "Price#Cost_effective",
+    "Price#Discount",
+    "Ambience#Decoration",
+    "Ambience#Noise",
+    "Ambience#Space",
+    "Ambience#Sanitary",
+    "Food#Portion",
+    "Food#Taste",
+    "Food#Appearance",
+    "Food#Recommend"
+  ],
+  "test_metrics": {
+    "aspect_mention_precision": 0.8547088625164827,
+    "aspect_mention_recall": 0.8684507439531768,
+    "aspect_mention_f1": 0.8615250087443161,
+    "aspect_polarity_tuple_precision": 0.7343327087237144,
+    "aspect_polarity_tuple_recall": 0.746139200338481,
+    "aspect_polarity_tuple_f1": 0.7401888772298006,
+    "polarity_macro_f1_on_gold_mentions": 0.7627376528507543,
+    "exact_aspect_set_accuracy": 0.24979757085020243
+  },
+  "scope_note": "Restaurant aspect/polarity benchmark; it does not label refund, purchase intent, or product delivery logistics."
+}
